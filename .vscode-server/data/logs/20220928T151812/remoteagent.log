@@ -1,0 +1,11 @@
+[2022-09-28 15:18:12.391] [remoteagent] [info] Extension host agent started.
+[2022-09-28 15:18:12.501] [remoteagent] [info] [127.0.0.1][f5c02d33][ManagementConnection] New connection established.
+[2022-09-28 15:18:12.663] [remoteagent] [info] [127.0.0.1][c273f8d7][ExtensionHostConnection] New connection established.
+[2022-09-28 15:18:12.742] [remoteagent] [info] [127.0.0.1][c273f8d7][ExtensionHostConnection] <273> Launched Extension Host Process.
+[2022-09-28 15:34:18.331] [remoteagent] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-09-28 15:34:18.407] [remoteagent] [info] Installing extension: github.vscode-pull-request-github
+[2022-09-28 15:34:19.068] [remoteagent] [info] Downloaded extension: github.vscode-pull-request-github /home/nunoamorim/.vscode-server/data/CachedExtensionVSIXs/github.vscode-pull-request-github-0.50.0
+[2022-09-28 15:34:19.184] [remoteagent] [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.44904e13-ffcf-418d-8ad5-65bd9cc93c0a: github.vscode-pull-request-github
+[2022-09-28 15:34:19.196] [remoteagent] [info] Renamed to /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.50.0
+[2022-09-28 15:34:19.198] [remoteagent] [info] Extracting completed. github.vscode-pull-request-github
+[2022-09-28 15:34:19.199] [remoteagent] [info] Extension installed successfully: github.vscode-pull-request-github
