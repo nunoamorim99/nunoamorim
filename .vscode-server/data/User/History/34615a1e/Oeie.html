@@ -1,0 +1,19 @@
+<html>
+    <body>
+
+        <form method="post">Choose a number: 
+            <input type="text" id="number" />
+            <input type="button" value="Submit" onclick="postNames()"/>
+        </form>
+    
+        <script>
+          async function postNames(){
+            let n = document.getElementById("number").value;
+            let res = await fetch('http://localhost:3000/postManyTimes/' + n);
+            document.getElementById("name").value = "";
+          }
+        </script>
+
+
+    </body>
+</html>

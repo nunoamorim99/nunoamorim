@@ -1,0 +1,22 @@
+[2022-10-04 08:36:22.618] [exthost] [info] Extension host with pid 27585 started
+[2022-10-04 08:36:22.630] [exthost] [error] Error: EEXIST: file already exists, open '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock'
+[2022-10-04 08:36:22.863] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-10-04 08:36:22.875] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': The lock does not look stale, elapsed: 810 ms, giving up.
+[2022-10-04 08:36:23.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-04 08:36:23.885] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-04 08:36:23.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-04 08:36:24.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-04 08:36:24.521] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a-1/vscode.lock': Lock acquired.
+[2022-10-04 08:36:27.543] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-10-04 08:36:28.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-04 08:36:28.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-04 08:36:29.857] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1273
+[2022-10-04 08:36:31.236] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1273
+[2022-10-04 08:36:34.306] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-04 08:36:34.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-04 08:36:34.654] [exthost] [info] Eager extensions activated
+[2022-10-04 11:05:32.664] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1274
+[2022-10-04 11:05:33.253] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1274
+[2022-10-04 11:05:33.748] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-04 11:05:33.753] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-04 11:05:33.835] [exthost] [info] Extension host with pid 27585 exiting with code 0

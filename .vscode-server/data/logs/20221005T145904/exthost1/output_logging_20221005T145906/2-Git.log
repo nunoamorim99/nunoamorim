@@ -1,0 +1,8 @@
+[2022-10-05T13:59:07.224Z] Log level: Info
+[2022-10-05T13:59:07.233Z] [info] Validating found git in: git
+[2022-10-05T13:59:07.281Z] [info] Using git  from git
+[2022-10-05T13:59:07.372Z] > git rev-parse --show-toplevel [71ms]
+[2022-10-05T13:59:07.431Z] > git rev-parse --git-dir --git-common-dir [44ms]
+[2022-10-05T13:59:07.441Z] [info] Open repository: /mnt/c/Users/nunom/OneDrive/Documentos/GitHub/nunoamorim
+[2022-10-05T13:59:08.211Z] > git check-ignore -v -z --stdin [161ms]
+[2022-10-05T13:59:08.773Z] > git fetch [1320ms]

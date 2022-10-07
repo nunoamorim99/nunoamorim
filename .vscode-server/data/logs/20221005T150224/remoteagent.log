@@ -1,0 +1,30 @@
+[2022-10-05 15:02:24.923] [remoteagent] [info] Extension host agent started.
+[2022-10-05 15:02:25.155] [remoteagent] [info] [127.0.0.1][3070938c][ManagementConnection] New connection established.
+[2022-10-05 15:02:25.202] [remoteagent] [info] [127.0.0.1][9af8c061][ExtensionHostConnection] New connection established.
+[2022-10-05 15:02:25.512] [remoteagent] [info] [127.0.0.1][9af8c061][ExtensionHostConnection] <1946> Launched Extension Host Process.
+[2022-10-05 15:03:28.038] [remoteagent] [info] [127.0.0.1][3bb825a9][ManagementConnection] New connection established.
+[2022-10-05 15:03:28.593] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] New connection established.
+[2022-10-05 15:03:28.600] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> Launched Extension Host Process.
+[2022-10-05 15:03:37.722] [remoteagent] [info] [127.0.0.1][3070938c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-05 15:03:37.755] [remoteagent] [info] [127.0.0.1][9af8c061][ExtensionHostConnection] <1946> Extension Host Process exited with code: 0, signal: null.
+[2022-10-05 15:18:05.909] [remoteagent] [info] Getting Manifest... ritwickdey.liveserver
+[2022-10-05 15:18:06.050] [remoteagent] [info] Installing extension: ritwickdey.liveserver
+[2022-10-05 15:18:07.467] [remoteagent] [info] Downloaded extension: ritwickdey.liveserver /home/nunoamorim/.vscode-server/data/CachedExtensionVSIXs/ritwickdey.liveserver-5.7.9
+[2022-10-05 15:18:11.420] [remoteagent] [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.42636b8e-ea0d-4905-9799-a294dd5fc039: ritwickdey.liveserver
+[2022-10-05 15:18:11.444] [remoteagent] [info] Renamed to /home/nunoamorim/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+[2022-10-05 15:18:11.446] [remoteagent] [info] Extracting completed. ritwickdey.liveserver
+[2022-10-05 15:18:11.448] [remoteagent] [info] Extension installed successfully: ritwickdey.liveserver
+[2022-10-05 15:18:29.381] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mGET /favicon.ico [33m404[0m 2.894 ms - 150[0m
+
+[2022-10-05 15:45:41.135] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mPOST /ITI/index.html [33m405[0m 0.547 ms - 0[0m
+
+[2022-10-05 15:45:46.875] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mPOST /ITI/index.html [33m405[0m 0.169 ms - 0[0m
+
+[2022-10-05 15:45:55.876] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mPOST /ITI/index.html [33m405[0m 0.134 ms - 0[0m
+
+[2022-10-05 15:50:37.168] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mGET /favicon.ico [33m404[0m 2.042 ms - 150[0m
+
+[2022-10-05 16:28:27.063] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> [0mGET /favicon.ico [33m404[0m 2.111 ms - 150[0m
+
+[2022-10-05 16:39:43.512] [remoteagent] [info] [127.0.0.1][3bb825a9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-05 16:39:43.644] [remoteagent] [info] [127.0.0.1][00a3a8b7][ExtensionHostConnection] <2138> Extension Host Process exited with code: 0, signal: null.

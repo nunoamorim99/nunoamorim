@@ -1,0 +1,14 @@
+[2022-10-05 14:58:33.734] [exthost] [info] Extension host with pid 778 started
+[2022-10-05 14:58:33.806] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/560973d9324040514eaf6517f1141a6f/vscode.lock': Lock acquired.
+[2022-10-05 14:58:34.015] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-05 14:58:34.043] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-05 14:58:34.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-05 14:58:34.187] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-05 14:58:34.701] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-10-05 14:58:35.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-05 14:58:36.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-05 14:58:36.433] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-05 14:58:36.441] [exthost] [info] Eager extensions activated
+[2022-10-05 14:58:47.072] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-05 14:58:47.073] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/560973d9324040514eaf6517f1141a6f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-05 14:58:47.121] [exthost] [info] Extension host with pid 778 exiting with code 0

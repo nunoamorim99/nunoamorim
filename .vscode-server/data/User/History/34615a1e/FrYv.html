@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <form method="post">Number of words: 
+            <input type="text" id="nwords" />
+            <input type="button" value="Submit" onclick="postNames()"/>
+        </form>
+        <form method="get" >Get name list
+        <input type="button" value="Get" onclick="getList()"/>
+        </form>
+
+        <form method="post">Number of fibonacci iterations: 
+            <input type="text" id="number" />
+            <lable id="show"></lable>
+            <input type="button" value="Submit" onclick="postNumber()"/>
+        </form>
+        <form method="get" >Get result
+        <input type="button" value="Get" onclick="getResult()"/>
+        </form>
+
+
+        <script>
+          async function postNames(){
+            let n = document.getElementById("nwords").value;
+            let res = await fetch('http://localhost:3000/postWords/' + n);
+            document.getElementById("name").value = "";
+          }
+        </script>
+
+
+    </body>
+</html>
