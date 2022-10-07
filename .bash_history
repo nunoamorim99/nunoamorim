@@ -91,3 +91,22 @@ ls
 cd ITI
 ls
 words.pdf
+code .
+sudo apt-get update
+sudo apt-get install gnome-system-monitor
+gnome-system-monitor
+sudo apt-get install gnome-system-monitor
+gnome-system-monitor
+sudo apt-get remove gnome-system-monitor
+sudo apt-get install gnome-system-monitor
+gnome-system-monitor
+sudo apt-get remove gnome-system-monitor
+sudo apt-get update
+uptime
+top
+du -b ficheiro.pdf
+cd ITI
+çs
+ls
+du -b ficheiro.pdf
+df -h ficheiro.pdf
