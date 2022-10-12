@@ -52,7 +52,7 @@ app.get("/postManyTimes/:number/:text", async(req,res) => {
   pdf.addPage();
   e++;
   }
-
+  console.log('ja acabei');
   pdf.save("ficheiro.pdf");
   var r = `ok`;
   res.send(r);
