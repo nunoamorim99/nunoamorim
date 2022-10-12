@@ -110,3 +110,64 @@ cd ITI
 ls
 du -b ficheiro.pdf
 df -h ficheiro.pdf
+cd ITI
+ls
+node server.js
+cd ITI
+node server.js
+time node server.js
+faltam 500
+time node server.js
+uptime node server.js
+time node server.js
+node server.js
+version
+-v
+lsb_release -a
+cd ITI
+node server.js
+ls
+code .
+cd ITGI
+cd ITI
+ls
+server.js
+node server.js
+iperf
+sudo apt install iperf
+iperf
+iperf --help
+iperf -s
+iperf -c [server_ip]
+iperf -c 10.10.10.5
+iperf -c 172.26.4.129
+iperf -c 127.0.0.1
+iperf -c 193.137.16.65
+iperf --help
+iperf -s
+top
+vmstat
+mpstat
+sudo apt install sysstat
+mpstat
+free
+top
+df -H server.js
+uptime
+debugf
+stat
+debugfs
+stat server.js
+sudo debugfs -R 56924 
+sudo debugfs -R 56924 server.js
+ls -i
+ls -i server.js
+sudo debugfs -R <56924> 
+df -h 
+sudo debugfs -R 56924 /dev/sdb
+sudo debugfs -R stat <56924>~ /dev/sdb
+sudo debugfs -R stat <56924> /dev/sdb
+sudo debugfs -R 'stat <56924>' /dev/sdb
+sar -n DEV 1
+top
+mpstat

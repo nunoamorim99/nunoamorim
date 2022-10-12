@@ -38,3 +38,72 @@
 [2022-10-07 17:24:39.762] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 416
 [2022-10-07 17:24:44.844] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 416
 [2022-10-07 17:24:46.930] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 416
+[2022-10-07 17:31:26.231] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-07 17:31:26.234] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-07 17:31:26.342] [exthost] [error] Canceled: Canceled
+	at Object.A [as canceled] (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9092
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9040)
+	at b.terminate (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:10988)
+	at b.terminate (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:34271)
+	at v.acceptFrame (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:33927)
+	at b._acceptChunk (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:31891)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:28880
+	at Socket.d (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:26763)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-10-07 17:31:26.342] [exthost] [error] Canceled: Canceled
+	at Object.A [as canceled] (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9092
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9040)
+	at b.terminate (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:10988)
+	at b.terminate (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:34271)
+	at v.acceptFrame (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:33927)
+	at b._acceptChunk (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:31891)
+	at /home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:28880
+	at Socket.d (/home/nunoamorim/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:26763)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) _vscode_delegate_cmd_l8ymlx41 undefined
+[2022-10-07 17:31:26.482] [exthost] [info] Extension host with pid 584 exiting with code 0
