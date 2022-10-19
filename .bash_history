@@ -173,3 +173,29 @@ top
 mpstat
 cd ITI
 node server.js
+code .
+top
+free
+top
+cd ITI
+node server.js
+npm install --save express-node-metrics
+node server.js
+npm install metrics
+node server.js
+npm install prom-client
+node server.js
+cd ITI
+node server.js
+code .
+cd ITI
+node server.js
+cd ITI
+node server.js
+code .
+rop
+top
+cd ITI
+ls
+du -b ficheiro.pdf
+uptime

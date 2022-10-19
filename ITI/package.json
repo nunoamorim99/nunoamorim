@@ -4,6 +4,9 @@
     "express": "^4.18.1",
     "formidable": "^2.0.1",
     "jspdf": "^2.5.1",
-    "node-fetch": "^3.2.10"
+    "metrics": "^0.1.21",
+    "node-fetch": "^3.2.10",
+    "prom-client": "^14.1.0",
+    "response-time": "^2.3.2"
   }
 }
