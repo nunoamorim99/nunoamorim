@@ -2911,3 +2911,68 @@
 [2022-10-19T17:38:18.851Z] > git show --textconv :ITI/index.html [13ms]
 [2022-10-19T17:38:18.854Z] > git ls-files --stage -- /home/nunoamorim/ITI/index.html [4ms]
 [2022-10-19T17:38:18.866Z] > git cat-file -s baf584f57cdfe82326d9d370d767e3f6c6094166 [1ms]
+[2022-10-19T17:38:20.635Z] > git add -A -- . [5117ms]
+[2022-10-19T17:38:20.635Z] warning: adding embedded git repository: .nvm
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .nvm
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .nvm
+hint: 
+hint: See "git help submodule" for more information.
+[2022-10-19T17:38:21.191Z] > git show --textconv :ITI/server.js [21ms]
+[2022-10-19T17:38:21.194Z] > git ls-files --stage -- /home/nunoamorim/ITI/server.js [7ms]
+[2022-10-19T17:38:21.209Z] > git cat-file -s 300dec6016f780272f7d13c91cd1a652119749bb [2ms]
+[2022-10-19T17:38:21.588Z] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+[2022-10-19T17:38:21.594Z] > git ls-files --stage -- /home/nunoamorim/.git/COMMIT_EDITMSG [7ms]
+[2022-10-19T17:38:21.869Z] > git check-ignore -v -z --stdin [5ms]
+[2022-10-19T17:38:22.035Z] > git status -z -uall [5ms]
+[2022-10-19T17:38:22.049Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T17:38:22.049Z] fatal: ref HEAD is not a symbolic ref
+[2022-10-19T17:38:22.061Z] > git rev-parse HEAD [1ms]
+[2022-10-19T17:38:22.082Z] > git remote --verbose [2ms]
+[2022-10-19T17:38:22.082Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-10-19T17:38:22.096Z] > git config --get commit.template [1ms]
+[2022-10-19T17:38:22.282Z] > git ls-files --stage -- /home/nunoamorim/.git/COMMIT_EDITMSG [5ms]
+[2022-10-19T17:38:22.310Z] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+[2022-10-19T17:38:24.603Z] > git -c user.useConfigOnly=true commit --quiet [3958ms]
+[2022-10-19T17:38:24.603Z] Aborting commit due to empty commit message.
+[2022-10-19T17:38:24.690Z] > git status -z -uall [72ms]
+[2022-10-19T17:38:24.701Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T17:38:24.714Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-19T17:38:24.733Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-19T17:38:24.734Z] > git remote --verbose [2ms]
+[2022-10-19T17:38:24.812Z] > git config --get commit.template [1ms]
+[2022-10-19T17:38:25.717Z] > git show --textconv :ITI/server.js [9ms]
+[2022-10-19T17:38:25.720Z] > git ls-files --stage -- /home/nunoamorim/ITI/server.js [4ms]
+[2022-10-19T17:38:25.731Z] > git cat-file -s 300dec6016f780272f7d13c91cd1a652119749bb [1ms]
+[2022-10-19T17:38:29.887Z] > git status -z -uall [63ms]
+[2022-10-19T17:38:29.900Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T17:38:29.914Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-19T17:38:29.944Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+[2022-10-19T17:38:29.945Z] > git remote --verbose [2ms]
+[2022-10-19T17:38:30.048Z] > git config --get commit.template [1ms]
+[2022-10-19T17:38:35.151Z] > git status -z -uall [90ms]
+[2022-10-19T17:38:35.161Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T17:38:35.171Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-19T17:38:35.184Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-10-19T17:38:35.185Z] > git remote --verbose [2ms]
+[2022-10-19T17:38:35.253Z] > git config --get commit.template [9ms]
+[2022-10-19T17:38:36.236Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [56ms]
+[2022-10-19T17:38:36.290Z] > git status -z -uall [46ms]
+[2022-10-19T17:38:36.301Z] > git symbolic-ref --short HEAD [3ms]
+[2022-10-19T17:38:36.316Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+[2022-10-19T17:38:36.334Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-19T17:38:36.335Z] > git remote --verbose [2ms]
+[2022-10-19T17:38:36.410Z] > git config --get commit.template [1ms]
+[2022-10-19T17:38:36.421Z] > git config --get commit.template [1ms]
+[2022-10-19T17:38:36.724Z] > git config --local branch.master.github-pr-owner-number [71ms]
+[2022-10-19T17:38:37.419Z] > git ls-files --stage -- /home/nunoamorim/ITI/server.js [5ms]
+[2022-10-19T17:38:37.426Z] > git cat-file -s 300dec6016f780272f7d13c91cd1a652119749bb [0ms]
+[2022-10-19T17:38:37.445Z] > git show --textconv :ITI/server.js [4ms]
