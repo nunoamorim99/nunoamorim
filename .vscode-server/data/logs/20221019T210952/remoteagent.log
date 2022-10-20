@@ -1,0 +1,11 @@
+[2022-10-19 21:09:52.539] [remoteagent] [info] Extension host agent started.
+[2022-10-19 21:09:52.660] [remoteagent] [info] [127.0.0.1][759b7b1d][ManagementConnection] New connection established.
+[2022-10-19 21:09:53.254] [remoteagent] [info] [127.0.0.1][0fe029fb][ExtensionHostConnection] New connection established.
+[2022-10-19 21:09:53.314] [remoteagent] [info] Deleted from disk github.vscode-pull-request-github /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.50.0
+[2022-10-19 21:09:53.479] [remoteagent] [info] [127.0.0.1][0fe029fb][ExtensionHostConnection] <533> Launched Extension Host Process.
+[2022-10-19 21:10:19.547] [remoteagent] [info] [127.0.0.1][0fe029fb][ExtensionHostConnection] <533> [0mGET /favicon.ico [33m404[0m 3.146 ms - 150[0m
+
+[2022-10-19 21:40:11.666] [remoteagent] [info] [127.0.0.1][0fe029fb][ExtensionHostConnection] <533> [0mGET /favicon.ico [33m404[0m 9.034 ms - 150[0m
+
+[2022-10-19 21:48:27.896] [remoteagent] [info] [127.0.0.1][759b7b1d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-19 21:48:28.051] [remoteagent] [info] [127.0.0.1][0fe029fb][ExtensionHostConnection] <533> Extension Host Process exited with code: 0, signal: null.

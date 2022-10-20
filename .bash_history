@@ -199,3 +199,37 @@ cd ITI
 ls
 du -b ficheiro.pdf
 uptime
+ls
+cd ITI
+ls
+node server.js
+cd ITI 
+npm install responso-time
+npm install response-time
+node server.js
+node experience.js
+node server.js
+node experience.js
+node server.js
+node experience.js
+cd ITI
+cd ..
+code .
+cd ITI
+iostat -m 5
+top
+du -b ficheiro.pdf
+uptime
+cd ITI
+node server.js
+cd ITI
+node server.js
+cd ITI
+node server.js
+node server2.js
+code .
+ipconfig
+ifconfig
+sudo apt install ifconfig
+sudo apt install net-tools
+ifconfig
