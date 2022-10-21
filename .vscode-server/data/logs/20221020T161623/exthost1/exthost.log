@@ -12,3 +12,6 @@
 [2022-10-20 16:16:32.841] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
 [2022-10-20 16:16:32.842] [exthost] [info] Eager extensions activated
 [2022-10-20 16:23:36.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-10-20 16:29:23.906] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-20 16:29:23.907] [exthost] [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-20 16:29:23.954] [exthost] [info] Extension host with pid 528 exiting with code 0

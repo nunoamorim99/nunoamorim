@@ -233,3 +233,15 @@ ifconfig
 sudo apt install ifconfig
 sudo apt install net-tools
 ifconfig
+cd ITI
+node server2.js
+code .
+ifconfig
+code .
+uptime
+cd ITI
+node server.js
+code .
+ifconfig
+cd ITI
+node server2.js
