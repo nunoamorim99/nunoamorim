@@ -1,0 +1,266 @@
+0 verbose cli /home/nunoamorim/.nvm/versions/node/v16.17.1/bin/node /home/nunoamorim/.nvm/versions/node/v16.17.1/bin/npm
+1 info using npm@8.15.0
+2 info using node@v16.17.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/home/nunoamorim/.nvm/versions/node/v16.17.1/lib/node_modules/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/nunoamorim/ITI/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 10ms
+11 timing config:load:file:/home/nunoamorim/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/nunoamorim/.nvm/versions/node/v16.17.1/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 31ms
+19 timing npm:load:configload Completed in 31ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 2ms
+22 verbose title npm install procfs-stats
+23 verbose argv "install" "procfs-stats"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 5ms
+26 timing npm:load:display Completed in 9ms
+27 verbose logfile logs-max:10 dir:/home/nunoamorim/.npm/_logs
+28 verbose logfile /home/nunoamorim/.npm/_logs/2022-10-22T10_14_51_698Z-debug-0.log
+29 timing npm:load:logFile Completed in 12ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 63ms
+33 timing arborist:ctor Completed in 2ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 251ms
+37 timing idealTree:userRequests Completed in 6ms
+38 silly idealTree buildDeps
+39 silly fetch manifest procfs-stats@*
+40 timing arborist:ctor Completed in 1ms
+41 http fetch GET 200 https://registry.npmjs.org/procfs-stats 1095ms (cache miss)
+42 silly placeDep ROOT procfs-stats@1.0.2 OK for:  want: *
+43 silly fetch manifest hexip@~1.0.1
+44 silly fetch manifest lru-cache@^4.0.0
+45 http fetch GET 200 https://registry.npmjs.org/lru-cache 157ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/hexip 840ms (cache miss)
+47 timing idealTree:#root Completed in 1966ms
+48 silly placeDep ROOT hexip@1.0.1 OK for: procfs-stats@1.0.2 want: ~1.0.1
+49 silly placeDep ROOT lru-cache@4.1.5 OK for: procfs-stats@1.0.2 want: ^4.0.0
+50 silly fetch manifest tape@~2.3.2
+51 silly fetch manifest pseudomap@^1.0.2
+52 silly fetch manifest yallist@^2.1.2
+53 http fetch GET 200 https://registry.npmjs.org/pseudomap 90ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/yallist 144ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/tape 348ms (cache miss)
+56 timing idealTree:node_modules/procfs-stats Completed in 382ms
+57 silly placeDep ROOT tape@2.3.3 OK for: hexip@1.0.1 want: ~2.3.2
+58 silly fetch manifest jsonify@~0.0.0
+59 silly fetch manifest deep-equal@~0.1.0
+60 silly fetch manifest defined@~0.0.0
+61 silly fetch manifest through@~2.3.4
+62 silly fetch manifest resumer@~0.0.0
+63 http fetch GET 200 https://registry.npmjs.org/defined 134ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/deep-equal 153ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/through 158ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/resumer 348ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/jsonify 781ms (cache miss)
+68 timing idealTree:node_modules/hexip Completed in 796ms
+69 silly placeDep ROOT pseudomap@1.0.2 OK for: lru-cache@4.1.5 want: ^1.0.2
+70 silly placeDep ROOT yallist@2.1.2 OK for: lru-cache@4.1.5 want: ^2.1.2
+71 timing idealTree:node_modules/lru-cache Completed in 15ms
+72 timing idealTree:node_modules/pseudomap Completed in 1ms
+73 silly placeDep ROOT deep-equal@0.1.2 OK for: tape@2.3.3 want: ~0.1.0
+74 silly placeDep ROOT defined@0.0.0 OK for: tape@2.3.3 want: ~0.0.0
+75 silly placeDep ROOT jsonify@0.0.1 OK for: tape@2.3.3 want: ~0.0.0
+76 silly placeDep ROOT resumer@0.0.0 OK for: tape@2.3.3 want: ~0.0.0
+77 silly placeDep ROOT through@2.3.8 OK for: tape@2.3.3 want: ~2.3.4
+78 timing idealTree:node_modules/tape Completed in 29ms
+79 timing idealTree:node_modules/deep-equal Completed in 0ms
+80 timing idealTree:node_modules/defined Completed in 0ms
+81 timing idealTree:node_modules/jsonify Completed in 0ms
+82 timing idealTree:node_modules/resumer Completed in 0ms
+83 timing idealTree:node_modules/through Completed in 1ms
+84 timing idealTree:node_modules/yallist Completed in 0ms
+85 timing idealTree:buildDeps Completed in 3202ms
+86 timing idealTree:fixDepFlags Completed in 6ms
+87 timing idealTree Completed in 3480ms
+88 timing reify:loadTrees Completed in 3482ms
+89 timing reify:diffTrees Completed in 19ms
+90 silly reify moves {}
+91 timing reify:retireShallow Completed in 5ms
+92 timing reify:createSparse Completed in 22ms
+93 timing reify:loadBundles Completed in 0ms
+94 silly audit bulk request {
+94 silly audit   '@babel/runtime': [ '7.19.0' ],
+94 silly audit   '@types/raf': [ '3.4.0' ],
+94 silly audit   accepts: [ '1.3.8' ],
+94 silly audit   'array-flatten': [ '1.1.1' ],
+94 silly audit   asap: [ '2.0.6' ],
+94 silly audit   atob: [ '2.1.2' ],
+94 silly audit   'base64-arraybuffer': [ '1.0.2' ],
+94 silly audit   bintrees: [ '1.0.2' ],
+94 silly audit   'body-parser': [ '1.20.0' ],
+94 silly audit   btoa: [ '1.2.1' ],
+94 silly audit   bytes: [ '3.1.2' ],
+94 silly audit   'call-bind': [ '1.0.2' ],
+94 silly audit   canvg: [ '3.0.10' ],
+94 silly audit   'content-disposition': [ '0.5.4' ],
+94 silly audit   'content-type': [ '1.0.4' ],
+94 silly audit   cookie: [ '0.5.0' ],
+94 silly audit   'cookie-signature': [ '1.0.6' ],
+94 silly audit   'core-js': [ '3.25.5' ],
+94 silly audit   'css-line-break': [ '2.1.0' ],
+94 silly audit   'data-uri-to-buffer': [ '4.0.0' ],
+94 silly audit   debug: [ '2.6.9' ],
+94 silly audit   depd: [ '2.0.0', '1.1.2' ],
+94 silly audit   destroy: [ '1.2.0' ],
+94 silly audit   dezalgo: [ '1.0.3' ],
+94 silly audit   dompurify: [ '2.4.0' ],
+94 silly audit   'ee-first': [ '1.1.1' ],
+94 silly audit   encodeurl: [ '1.0.2' ],
+94 silly audit   'escape-html': [ '1.0.3' ],
+94 silly audit   etag: [ '1.8.1' ],
+94 silly audit   events: [ '2.1.0' ],
+94 silly audit   express: [ '4.18.1' ],
+94 silly audit   'fetch-blob': [ '3.2.0' ],
+94 silly audit   fflate: [ '0.4.8' ],
+94 silly audit   finalhandler: [ '1.2.0' ],
+94 silly audit   'formdata-polyfill': [ '4.0.10' ],
+94 silly audit   formidable: [ '2.0.1' ],
+94 silly audit   qs: [ '6.9.3', '6.10.3' ],
+94 silly audit   forwarded: [ '0.2.0' ],
+94 silly audit   fresh: [ '0.5.2' ],
+94 silly audit   'function-bind': [ '1.1.1' ],
+94 silly audit   'get-intrinsic': [ '1.1.3' ],
+94 silly audit   has: [ '1.0.3' ],
+94 silly audit   'has-symbols': [ '1.0.3' ],
+94 silly audit   hexoid: [ '1.0.0' ],
+94 silly audit   html2canvas: [ '1.4.1' ],
+94 silly audit   'http-errors': [ '2.0.0' ],
+94 silly audit   'iconv-lite': [ '0.4.24' ],
+94 silly audit   inherits: [ '2.0.4' ],
+94 silly audit   'ipaddr.js': [ '1.9.1' ],
+94 silly audit   jspdf: [ '2.5.1' ],
+94 silly audit   'media-typer': [ '0.3.0' ],
+94 silly audit   'merge-descriptors': [ '1.0.1' ],
+94 silly audit   methods: [ '1.1.2' ],
+94 silly audit   metrics: [ '0.1.21' ],
+94 silly audit   mime: [ '1.6.0' ],
+94 silly audit   'mime-db': [ '1.52.0' ],
+94 silly audit   'mime-types': [ '2.1.35' ],
+94 silly audit   ms: [ '2.0.0', '2.1.3' ],
+94 silly audit   negotiator: [ '0.6.3' ],
+94 silly audit   'node-domexception': [ '1.0.0' ],
+94 silly audit   'node-fetch': [ '3.2.10' ],
+94 silly audit   'object-inspect': [ '1.12.2' ],
+94 silly audit   'on-finished': [ '2.4.1' ],
+94 silly audit   'on-headers': [ '1.0.2' ],
+94 silly audit   once: [ '1.4.0' ],
+94 silly audit   parseurl: [ '1.3.3' ],
+94 silly audit   'path-to-regexp': [ '0.1.7' ],
+94 silly audit   'performance-now': [ '2.1.0' ],
+94 silly audit   'prom-client': [ '14.1.0' ],
+94 silly audit   'proxy-addr': [ '2.0.7' ],
+94 silly audit   raf: [ '3.4.1' ],
+94 silly audit   'range-parser': [ '1.2.1' ],
+94 silly audit   'raw-body': [ '2.5.1' ],
+94 silly audit   'regenerator-runtime': [ '0.13.9' ],
+94 silly audit   'response-time': [ '2.3.2' ],
+94 silly audit   rgbcolor: [ '1.0.1' ],
+94 silly audit   'safe-buffer': [ '5.2.1' ],
+94 silly audit   'safer-buffer': [ '2.1.2' ],
+94 silly audit   send: [ '0.18.0' ],
+94 silly audit   'serve-static': [ '1.15.0' ],
+94 silly audit   setprototypeof: [ '1.2.0' ],
+94 silly audit   'side-channel': [ '1.0.4' ],
+94 silly audit   'stackblur-canvas': [ '2.5.0' ],
+94 silly audit   statuses: [ '2.0.1' ],
+94 silly audit   'svg-pathdata': [ '6.0.3' ],
+94 silly audit   tdigest: [ '0.1.2' ],
+94 silly audit   'text-segmentation': [ '1.0.3' ],
+94 silly audit   toidentifier: [ '1.0.1' ],
+94 silly audit   'type-is': [ '1.6.18' ],
+94 silly audit   unpipe: [ '1.0.0' ],
+94 silly audit   'utils-merge': [ '1.0.1' ],
+94 silly audit   utrie: [ '1.0.2' ],
+94 silly audit   vary: [ '1.1.2' ],
+94 silly audit   'web-streams-polyfill': [ '3.2.1' ],
+94 silly audit   wrappy: [ '1.0.2' ],
+94 silly audit   'procfs-stats': [ '1.0.2' ],
+94 silly audit   hexip: [ '1.0.1' ],
+94 silly audit   'lru-cache': [ '4.1.5' ],
+94 silly audit   tape: [ '2.3.3' ],
+94 silly audit   pseudomap: [ '1.0.2' ],
+94 silly audit   yallist: [ '2.1.2' ],
+94 silly audit   'deep-equal': [ '0.1.2' ],
+94 silly audit   defined: [ '0.0.0' ],
+94 silly audit   jsonify: [ '0.0.1' ],
+94 silly audit   resumer: [ '0.0.0' ],
+94 silly audit   through: [ '2.3.8' ]
+94 silly audit }
+95 silly tarball no local data for resumer@https://registry.npmjs.org/resumer/-/resumer-0.0.0.tgz. Extracting by manifest.
+96 silly tarball no local data for jsonify@https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz. Extracting by manifest.
+97 silly tarball no local data for defined@https://registry.npmjs.org/defined/-/defined-0.0.0.tgz. Extracting by manifest.
+98 silly tarball no local data for deep-equal@https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.2.tgz. Extracting by manifest.
+99 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz. Extracting by manifest.
+100 silly tarball no local data for tape@https://registry.npmjs.org/tape/-/tape-2.3.3.tgz. Extracting by manifest.
+101 silly tarball no local data for pseudomap@https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz. Extracting by manifest.
+102 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz. Extracting by manifest.
+103 silly tarball no local data for hexip@https://registry.npmjs.org/hexip/-/hexip-1.0.1.tgz. Extracting by manifest.
+104 silly tarball no local data for through@https://registry.npmjs.org/through/-/through-2.3.8.tgz. Extracting by manifest.
+105 silly tarball no local data for procfs-stats@https://registry.npmjs.org/procfs-stats/-/procfs-stats-1.0.2.tgz. Extracting by manifest.
+106 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 297ms
+107 timing auditReport:getReport Completed in 319ms
+108 silly audit report {}
+109 timing auditReport:init Completed in 0ms
+110 timing reify:audit Completed in 323ms
+111 http fetch GET 200 https://registry.npmjs.org/resumer/-/resumer-0.0.0.tgz 266ms (cache miss)
+112 timing reifyNode:node_modules/resumer Completed in 350ms
+113 http fetch GET 200 https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.2.tgz 262ms (cache miss)
+114 timing reifyNode:node_modules/deep-equal Completed in 359ms
+115 http fetch GET 200 https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz 294ms (cache miss)
+116 timing reifyNode:node_modules/jsonify Completed in 384ms
+117 http fetch GET 200 https://registry.npmjs.org/defined/-/defined-0.0.0.tgz 290ms (cache miss)
+118 timing reifyNode:node_modules/defined Completed in 384ms
+119 http fetch GET 200 https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz 279ms (cache miss)
+120 timing reifyNode:node_modules/pseudomap Completed in 400ms
+121 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz 278ms (cache miss)
+122 timing reifyNode:node_modules/lru-cache Completed in 401ms
+123 http fetch GET 200 https://registry.npmjs.org/through/-/through-2.3.8.tgz 266ms (cache miss)
+124 timing reifyNode:node_modules/through Completed in 407ms
+125 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz 296ms (cache miss)
+126 timing reifyNode:node_modules/yallist Completed in 406ms
+127 http fetch GET 200 https://registry.npmjs.org/tape/-/tape-2.3.3.tgz 322ms (cache miss)
+128 timing reifyNode:node_modules/tape Completed in 438ms
+129 http fetch GET 200 https://registry.npmjs.org/hexip/-/hexip-1.0.1.tgz 985ms (cache miss)
+130 timing reifyNode:node_modules/hexip Completed in 1114ms
+131 http fetch GET 200 https://registry.npmjs.org/procfs-stats/-/procfs-stats-1.0.2.tgz 1243ms (cache miss)
+132 timing reifyNode:node_modules/procfs-stats Completed in 1388ms
+133 timing reify:unpack Completed in 1396ms
+134 timing reify:unretire Completed in 1ms
+135 timing build:queue Completed in 8ms
+136 timing build:link:node_modules/tape Completed in 15ms
+137 timing build:link Completed in 15ms
+138 timing build:deps Completed in 25ms
+139 timing build Completed in 26ms
+140 timing reify:build Completed in 29ms
+141 timing reify:trash Completed in 0ms
+142 timing reify:save Completed in 159ms
+143 timing reify Completed in 5259ms
+144 silly ADD node_modules/through
+145 silly ADD node_modules/resumer
+146 silly ADD node_modules/jsonify
+147 silly ADD node_modules/defined
+148 silly ADD node_modules/deep-equal
+149 silly ADD node_modules/yallist
+150 silly ADD node_modules/pseudomap
+151 silly ADD node_modules/tape
+152 silly ADD node_modules/lru-cache
+153 silly ADD node_modules/hexip
+154 silly ADD node_modules/procfs-stats
+155 timing command:install Completed in 5292ms
+156 verbose exit 0
+157 timing npm Completed in 5508ms
+158 info ok

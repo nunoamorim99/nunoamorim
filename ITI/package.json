@@ -6,6 +6,7 @@
     "jspdf": "^2.5.1",
     "metrics": "^0.1.21",
     "node-fetch": "^3.2.10",
+    "procfs-stats": "^1.0.2",
     "prom-client": "^14.1.0",
     "response-time": "^2.3.2"
   }

@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form method="post">Choose a number and a text: 
+            <input type="text" id="number" />
+            <input type="text" id="text" />
+            <input type="button" value="Submit" onclick="postTimes()"/>
+        </form>
+    
+        <script>
+          async function postTimes(){
+            let n = document.getElementById("number").value;
+            let t = document.getElementById("text").value;
+
+            //let res = await fetch('http://192.168.43.89:4000/postManyTimes/' + n + '/' + t); //IP do PC tirado da linha de comandos normal
+
+            //
+            let res = await fetch('http://localhost:3000/postManyTimes/' + n + '/' + t);          
+          }
+        </script>
+    </body>
+</html>

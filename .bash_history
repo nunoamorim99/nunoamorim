@@ -245,3 +245,15 @@ code .
 ifconfig
 cd ITI
 node server2.js
+code .
+ifconfig
+code .
+cd ITI
+node server.js
+npm install procfs-stats
+node server.js
+code.
+code .
+cd ITI
+node server.js
+code .
