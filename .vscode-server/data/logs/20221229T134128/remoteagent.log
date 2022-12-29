@@ -1,0 +1,11 @@
+2022-12-29 13:41:29.049 [info] Extension host agent started.
+2022-12-29 13:41:29.298 [info] [127.0.0.1][c0e16a32][ManagementConnection] New connection established.
+2022-12-29 13:41:29.673 [info] [127.0.0.1][cd19bbd7][ExtensionHostConnection] New connection established.
+2022-12-29 13:41:30.332 [info] [127.0.0.1][cd19bbd7][ExtensionHostConnection] <729> Launched Extension Host Process.
+2022-12-29 13:41:35.914 [info] Getting Manifest... blackboxapp.blackbox
+2022-12-29 13:41:36.440 [info] Installing extension: blackboxapp.blackbox
+2022-12-29 13:41:57.442 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.17ff3915-e24c-4718-8846-324089062a32: blackboxapp.blackbox
+2022-12-29 13:41:57.503 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/blackboxapp.blackbox-0.9.5
+2022-12-29 13:41:57.505 [info] Extracting completed. blackboxapp.blackbox
+2022-12-29 13:41:57.552 [info] Extension installed successfully: blackboxapp.blackbox
+2022-12-29 13:41:57.608 [info] Marked extension as uninstalled blackboxapp.blackbox-0.9.4

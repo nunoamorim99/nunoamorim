@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  frontend_backend:
+    build: 
+      context: ./ITI
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.http.routers.frontend_backend.rule=Host(`frontend_backend.localhost`)"
+      #- "traefik.frontend_backend.rule=Host:frontend_backend.docker.localhost"

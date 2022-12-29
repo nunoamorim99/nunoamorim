@@ -1,0 +1,25 @@
+2022-12-19 14:28:29.318 [info] Extension host with pid 731 started
+2022-12-19 14:28:29.354 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Lock acquired.
+2022-12-19 14:28:29.442 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2022-12-19 14:28:29.444 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-19 14:28:30.881 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-19 14:28:30.895 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-19 14:28:31.958 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-19 14:28:31.962 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-19 14:28:31.963 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-19 14:28:31.965 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-12-19 14:28:31.965 [info] Eager extensions activated
+2022-12-19 14:28:33.263 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2022-12-19 14:28:38.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3930
+2022-12-19 14:28:53.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:28:59.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:29:05.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:29:10.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:29:16.139 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:29:59.926 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:30:05.264 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:30:10.963 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3952
+2022-12-19 14:30:41.060 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3956
+2022-12-19 14:30:48.793 [info] Extension host terminating: received terminate message from renderer
+2022-12-19 14:30:48.796 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-19 14:30:48.870 [info] Extension host with pid 731 exiting with code 0

@@ -1,0 +1,61 @@
+version: '3.8'
+services:
+  #frontend_backend:
+    #build: 
+     #context: ./frontend
+      #dockerfile: Dockerfile
+    #ports:
+      #- "3000:3000"
+    #labels:
+      #- "traefik.http.routers.frontend_backend.rule=Host(`frontend_backend.localhost`)"
+      #- "traefik.frontend_backend.rule=Host:frontend_backend.docker.localhost"
+    #depends_on:
+     # - traefik
+    
+  # NAS - we have to define the volume before we can use it  
+
+  traefik:
+    image: traefik
+    container_name: traefik
+    command:
+      - --api.insecure=true
+      - --providers.docker
+      - --providers.docker.exposedbydefault=false
+    ports:
+      - "80:80"
+      - "8080:8080"
+    networks:
+      - loadbalancer
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    labels:
+      - "traefik.docker.network=loadbalancer"
+
+  frontend:
+    image: frontend
+    user: "${UID}:${GID}"
+    volumes:
+      - type: bind
+        source: ./share/subshare
+        target: /mnt/remote
+    ports:
+      - "3000"
+    deploy:
+      replicas: 2
+    networks:
+      - loadbalancer
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`frontend.localhost`)"
+      - "traefik.docker.network=loadbalancer"
+    build:
+      context: frontend
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+
+networks:
+  loadbalancer:
+    external: true
+    
+ 

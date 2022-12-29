@@ -1,0 +1,9 @@
+2022-12-26 15:04:58.233 [info] Extension host agent started.
+2022-12-26 15:04:58.872 [info] [127.0.0.1][275df218][ManagementConnection] New connection established.
+2022-12-26 15:04:59.230 [info] [127.0.0.1][65a15143][ExtensionHostConnection] New connection established.
+2022-12-26 15:05:01.698 [info] [127.0.0.1][65a15143][ExtensionHostConnection] <28434> Launched Extension Host Process.
+2022-12-26 15:05:03.193 [info] Deleted from disk ms-azuretools.vscode-docker /home/nunoamorim/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.2
+2022-12-26 15:05:05.399 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-26 15:05:08.396 [info] Deleted from disk blackboxapp.blackbox /home/nunoamorim/.vscode-server/extensions/blackboxapp.blackbox-0.8.4
+2022-12-26 15:09:44.497 [info] [127.0.0.1][275df218][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-26 15:09:44.691 [info] [127.0.0.1][65a15143][ExtensionHostConnection] <28434> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,25 @@
+2022-12-26 15:05:09.919 [info] Log level: Info
+2022-12-26 15:05:09.919 [info] Validating found git in: "git"
+2022-12-26 15:05:09.919 [info] Using git "2.25.1" from "git"
+2022-12-26 15:05:09.920 [info] > git rev-parse --show-toplevel [166ms]
+2022-12-26 15:05:09.920 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2022-12-26 15:05:09.920 [info] Open repository: /home/nunoamorim
+2022-12-26 15:05:10.069 [info] > git rev-parse --show-toplevel [173ms]
+2022-12-26 15:05:10.097 [info] > git config --get commit.template [42ms]
+2022-12-26 15:05:10.099 [info] > git rev-parse --show-toplevel [17ms]
+2022-12-26 15:05:10.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2022-12-26 15:05:10.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2022-12-26 15:05:10.476 [info] > git check-ignore -v -z --stdin [44ms]
+2022-12-26 15:05:10.633 [info] > git fetch [764ms]
+2022-12-26 15:05:10.661 [info] > git status -z -uall [518ms] (cancelled)
+2022-12-26 15:05:10.664 [info] > git config --get commit.template [5ms]
+2022-12-26 15:05:10.665 [info] > git config --get commit.template [17ms]
+2022-12-26 15:05:10.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [287ms]
+2022-12-26 15:05:11.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [328ms]
+2022-12-26 15:05:11.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2022-12-26 15:05:11.493 [info] > git status -z -uall [491ms] (cancelled)
+2022-12-26 15:05:18.860 [info] > git config --local branch.master.github-pr-owner-number [125ms]
+2022-12-26 15:05:22.086 [info] > git show --textconv :ITI2/docker-compose.yml [63ms]
+2022-12-26 15:05:22.087 [info] > git ls-files --stage -- /home/nunoamorim/ITI2/docker-compose.yml [53ms]
+2022-12-26 15:05:24.920 [info] > git check-ignore -v -z --stdin [16ms]
+2022-12-26 15:05:27.426 [info] > git check-ignore -v -z --stdin [22ms]

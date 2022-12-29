@@ -1,0 +1,25 @@
+2022-12-19 14:28:26.716 [info] Extension host agent started.
+2022-12-19 14:28:27.239 [info] [127.0.0.1][fce43e64][ManagementConnection] New connection established.
+2022-12-19 14:28:27.243 [info] [127.0.0.1][45b15e8c][ExtensionHostConnection] New connection established.
+2022-12-19 14:28:27.950 [info] [127.0.0.1][45b15e8c][ExtensionHostConnection] <731> Launched Extension Host Process.
+2022-12-19 14:30:32.362 [info] [127.0.0.1][f85b352e][ManagementConnection] New connection established.
+2022-12-19 14:30:34.263 [info] [127.0.0.1][c6133a82][ExtensionHostConnection] New connection established.
+2022-12-19 14:30:34.286 [info] [127.0.0.1][c6133a82][ExtensionHostConnection] <1593> Launched Extension Host Process.
+2022-12-19 14:30:48.795 [info] [127.0.0.1][fce43e64][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-19 14:30:48.943 [info] [127.0.0.1][45b15e8c][ExtensionHostConnection] <731> Extension Host Process exited with code: 0, signal: null.
+2022-12-19 14:31:58.322 [info] Getting Manifest... ms-azuretools.vscode-docker
+2022-12-19 14:31:59.969 [info] Getting Manifest... ms-azuretools.vscode-docker
+2022-12-19 14:32:01.950 [info] Installing extension: ms-azuretools.vscode-docker
+2022-12-19 14:32:05.920 [info] Extensions is already requested to install ms-azuretools.vscode-docker
+2022-12-19 14:32:21.778 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.7c7852e9-a57a-4b2f-a3e5-61904ebec621: ms-azuretools.vscode-docker
+2022-12-19 14:32:21.801 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.2
+2022-12-19 14:32:21.819 [info] Extracting completed. ms-azuretools.vscode-docker
+2022-12-19 14:32:21.831 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2022-12-19 14:35:34.648 [info] Getting Manifest... blackboxapp.blackbox
+2022-12-19 14:35:34.772 [info] Installing extension: blackboxapp.blackbox
+2022-12-19 14:36:17.696 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.59acb4a8-b57f-4a9b-ba51-c0670702bb3f: blackboxapp.blackbox
+2022-12-19 14:36:17.710 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/blackboxapp.blackbox-0.8.3
+2022-12-19 14:36:17.713 [info] Extracting completed. blackboxapp.blackbox
+2022-12-19 14:36:17.717 [info] Extension installed successfully: blackboxapp.blackbox
+2022-12-19 14:51:40.572 [info] [127.0.0.1][f85b352e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-19 14:51:40.930 [info] [127.0.0.1][c6133a82][ExtensionHostConnection] <1593> Extension Host Process exited with code: 0, signal: null.

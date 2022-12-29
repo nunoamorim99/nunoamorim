@@ -1,0 +1,33 @@
+2022-12-26 14:15:11.400 [info] Extension host agent started.
+2022-12-26 14:15:11.712 [info] [127.0.0.1][61846fa9][ManagementConnection] New connection established.
+2022-12-26 14:15:13.759 [info] [127.0.0.1][0433d544][ExtensionHostConnection] New connection established.
+2022-12-26 14:15:14.623 [info] [127.0.0.1][0433d544][ExtensionHostConnection] <17256> Launched Extension Host Process.
+2022-12-26 14:15:16.520 [info] Deleted from disk blackboxapp.blackbox /home/nunoamorim/.vscode-server/extensions/blackboxapp.blackbox-0.8.3
+2022-12-26 14:15:21.576 [info] Getting Manifest... blackboxapp.blackbox
+2022-12-26 14:15:21.576 [info] Getting Manifest... ms-azuretools.vscode-docker
+2022-12-26 14:15:21.884 [info] Installing extension: blackboxapp.blackbox
+2022-12-26 14:15:21.957 [info] Installing extension: ms-azuretools.vscode-docker
+2022-12-26 14:15:32.851 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.0616c69e-fffb-4951-b1e0-136e582fd8f8: ms-azuretools.vscode-docker
+2022-12-26 14:15:32.927 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.3
+2022-12-26 14:15:32.981 [info] Extracting completed. ms-azuretools.vscode-docker
+2022-12-26 14:15:33.056 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2022-12-26 14:15:33.171 [info] Marked extension as uninstalled ms-azuretools.vscode-docker-1.23.2
+2022-12-26 14:16:06.495 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.a3546b9a-5912-4837-a6e3-8d15514ed37b: blackboxapp.blackbox
+2022-12-26 14:16:06.525 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/blackboxapp.blackbox-0.9.4
+2022-12-26 14:16:06.531 [info] Extracting completed. blackboxapp.blackbox
+2022-12-26 14:16:06.606 [info] Extension installed successfully: blackboxapp.blackbox
+2022-12-26 14:16:06.696 [info] Marked extension as uninstalled blackboxapp.blackbox-0.8.4
+2022-12-26 14:16:20.348 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:20.349 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 14:16:21.125 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:21.125 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 14:16:21.560 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:21.561 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 14:16:22.000 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:22.001 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 14:16:22.355 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:22.356 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 14:16:22.739 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 14:16:22.740 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Host is down
+2022-12-26 15:01:40.434 [info] [127.0.0.1][61846fa9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-26 15:01:40.837 [info] [127.0.0.1][0433d544][ExtensionHostConnection] <17256> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  traefik:
+    image: traefik:v2.9 # The official Traefik docker image
+    command: --api.insecure=true --providers.docker # Enables the web UI and tells Traefik to listen to docker
+    #network: it
+    ports:
+      - "80:80"     # The HTTP port
+      - "8080:8080" # The Web UI (enabled by --api)
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
+  
+  frontend_backend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.http.routers.frontend_backend.rule=Host(`frontend_backend.localhost`)"
+      #- "traefik.frontend_backend.rule=Host:frontend_backend.docker.localhost"
+    depends_on:
+      - traefik
+    
+  # NAS - we have to define the volume before we can use it  
+  #
+
+    
+ 

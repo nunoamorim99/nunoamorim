@@ -1,0 +1,15 @@
+2022-12-19 14:58:18.446 [info] Extension host agent started.
+2022-12-19 14:58:18.630 [info] Started initializing default profile extensions in extensions installation folder. file:///home/nunoamorim/.vscode-server/extensions
+2022-12-19 14:58:18.645 [info] [127.0.0.1][b8da2616][ManagementConnection] New connection established.
+2022-12-19 14:58:19.109 [info] [127.0.0.1][aeca5444][ExtensionHostConnection] New connection established.
+2022-12-19 14:58:19.393 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/nunoamorim/.vscode-server/extensions
+2022-12-19 14:58:20.035 [info] [127.0.0.1][aeca5444][ExtensionHostConnection] <8181> Launched Extension Host Process.
+2022-12-19 14:58:28.404 [info] Getting Manifest... github.vscode-pull-request-github
+2022-12-19 14:58:28.580 [info] Installing extension: github.vscode-pull-request-github
+2022-12-19 14:58:33.398 [info] Extracted extension to /home/nunoamorim/.vscode-server/extensions/.45d15a7f-c7ab-4b5f-8077-35c10cd1770a: github.vscode-pull-request-github
+2022-12-19 14:58:33.419 [info] Renamed to /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0
+2022-12-19 14:58:33.451 [info] Extracting completed. github.vscode-pull-request-github
+2022-12-19 14:58:33.469 [info] Extension installed successfully: github.vscode-pull-request-github
+2022-12-19 14:58:33.549 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.54.1
+2022-12-19 15:05:38.818 [info] [127.0.0.1][b8da2616][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-19 15:05:39.106 [info] [127.0.0.1][aeca5444][ExtensionHostConnection] <8181> Extension Host Process exited with code: 0, signal: null.

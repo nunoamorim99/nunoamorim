@@ -1,0 +1,19 @@
+2022-12-26 17:09:11.098 [info] Extension host with pid 17186 started
+2022-12-26 17:09:11.180 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Lock acquired.
+2022-12-26 17:09:11.630 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2022-12-26 17:09:11.632 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-26 17:09:11.633 [info] ExtensionService#_doActivateExtension Blackboxapp.blackbox, startup: true, activationEvent: '*'
+2022-12-26 17:09:13.086 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-26 17:09:13.087 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-26 17:09:13.880 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 17:09:13.881 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 17:09:13.881 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 17:09:13.882 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 17:09:13.882 [info] Eager extensions activated
+2022-12-26 17:09:14.462 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 17:10:52.103 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 17:12:16.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2022-12-26 17:15:17.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 17:16:46.436 [info] Extension host terminating: received terminate message from renderer
+2022-12-26 17:16:46.437 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-26 17:16:46.499 [info] Extension host with pid 17186 exiting with code 0

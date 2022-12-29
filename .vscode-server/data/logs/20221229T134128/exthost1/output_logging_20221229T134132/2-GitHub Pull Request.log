@@ -1,0 +1,30 @@
+[Info] /home/nunoamorim/.ssh/config: ENOENT: no such file or directory, open '/home/nunoamorim/.ssh/config'
+[Info] Looking for git repository
+[Info] Found 0 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Registering git provider
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Cannot updates repositories as git is uninitialized
+[Info] Repository file:///home/nunoamorim/.nvm has been opened
+[Info] Repo file:///home/nunoamorim/.nvm has already been setup.
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Git initialization state changed: state=initialized
+[Info] Review> Queuing additional validate state
+[Info] Repo state for file:///home/nunoamorim/.nvm changed.
+[Info] Repo file:///home/nunoamorim/.nvm has already been setup.
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] Repo state for file:///home/nunoamorim changed.
+[Info] Repo file:///home/nunoamorim has already been setup.
+[Info] RateLimit> Unexpectedly low rate limit: 30
+[Info] RateLimit> Rate limit remaining: 29
+[Info] RateLimit> Unexpectedly low rate limit: 30
+[Info] RateLimit> Rate limit remaining: 28
+[Info] RateLimit> Unexpectedly low rate limit: 30
+[Info] RateLimit> Rate limit remaining: 27
+[Info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"nunoamorim99","repositoryName":"nunoamorim"}],"availableCompareRemotes":[{"owner":"nunoamorim99","repositoryName":"nunoamorim"}],"defaultBaseRemote":{"owner":"nunoamorim99","repositoryName":"nunoamorim"},"defaultBaseBranch":"master","defaultCompareRemote":{"owner":"nunoamorim99","repositoryName":"nunoamorim"},"defaultCompareBranch":"master","branchesForRemote":["master"],"branchesForCompare":["master"],"defaultTitle":"Master","defaultDescription":"","defaultMergeMethod":"merge","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"createError":""}
+[Info] GithubRepository> Unable to create PR: Error: GraphQL error: No commits between master and master

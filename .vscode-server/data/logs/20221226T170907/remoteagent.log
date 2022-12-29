@@ -1,0 +1,18 @@
+2022-12-26 17:09:07.165 [info] Extension host agent started.
+2022-12-26 17:09:08.048 [info] [127.0.0.1][81cfdf63][ManagementConnection] New connection established.
+2022-12-26 17:09:08.349 [info] [127.0.0.1][d810d12c][ExtensionHostConnection] New connection established.
+2022-12-26 17:09:09.266 [info] [127.0.0.1][d810d12c][ExtensionHostConnection] <17186> Launched Extension Host Process.
+2022-12-26 17:10:49.338 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:49.340 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 17:10:49.569 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:49.569 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 17:10:49.764 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:49.764 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 17:10:49.955 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:49.955 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 17:10:50.147 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:50.147 [error] [File Watcher (universal)] restarting watcher after error: Host is down
+2022-12-26 17:10:50.360 [error] [File Watcher (parcel)] Unexpected error: Host is down (EUNKNOWN) (path: /home/nunoamorim)
+2022-12-26 17:10:50.360 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Host is down
+2022-12-26 17:16:46.437 [info] [127.0.0.1][81cfdf63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-26 17:16:46.514 [info] [127.0.0.1][d810d12c][ExtensionHostConnection] <17186> Extension Host Process exited with code: 0, signal: null.

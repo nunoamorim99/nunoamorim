@@ -257,3 +257,188 @@ code .
 cd ITI
 node server.js
 code .
+mkdir /mnt/itimount
+mkdir /mnt/itimount
+code .
+cd ITI
+node server2.js
+node server.js
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd mnt
+ls
+cd itishare
+ls
+lçs
+ls
+cd ITI
+ls
+mkdir /mnt/itimount
+su root
+users
+cd ..
+users
+sudo -i
+cd ..
+cdc ..
+cd ..
+cd mnt
+cd itishare/
+ls
+cd ITI
+node server.js
+cd ..
+ls
+cd mnt
+ls
+cd itishare
+ls
+code .
+iostat 5
+cd ITI
+node server.js
+cd ITI
+code .
+code .
+docker-compose -d
+docker-compose up -d
+Dockerfile up -d
+Dockerfile
+cl
+clear
+docker-compose up -d
+npm install docker
+docker-compose up -d
+ls 
+cd ITI2
+ls
+cd ITI
+ls 
+docker-compose up -d
+ls
+code .
+ls
+cd ITI2
+ls
+code .
+ls
+cd ITI2
+ls 
+cd ITI
+ls 
+mkdir /mnt/vd1/vd1
+mkdir mnt/vd1/vd1
+mkdir /mnt/vd1/vd1
+mkdir mnt
+ls
+mkdir /mnt/trabalho3
+ls
+mkdir /mnt/vd1/vd1
+ls
+ls
+cd ITI2
+ls
+cd ITI
+ls
+cd mnt
+cd ..
+ls
+cd frontend
+ls
+mount -t drvfs '\\192-168.43.59\trabalho3' share/subshare
+mount -t cifs '\\192-168.43.59\trabalho3' share/subshare
+sudo bash
+cd ITI
+docker-compose up -d
+ls
+cd ITI2
+ls 
+cd ITI
+cd frontend
+ls
+node server.js
+code .
+docker compose up -d
+cd ITI2
+docker compose up -d
+docker network create loadbalancer
+docker compose up -d
+sudo
+dovker -compose down
+dovker -compoce down
+docker-compose down
+ls
+cd ITI2
+lss
+ls
+ls
+cd ITI2
+ls
+code .
+sudo 
+sudo apt
+sudo 
+sudo -h
+sudo apt 
+sudo 
+root
+sudo bash
+code .
+cd ITI2
+docker rm --force redis iti
+docker rm --force iti
+cd ITI2
+
+docker compose up -d
+ls 
+cd.. 
+cd ..
+ls
+cd ..
+ls
+cd mnt
+ls 
+cd remote
+ls 
+ls
+code .
+cd ..
+ls 
+cd mnt
+ls 
+cd remote 
+ls 
+cd ITI2
+docker compose up -d
+cd ..
+ls
+cd mnt
+ls 
+cd remote
+ls 
+sudo bash 
+code .
+ls 
+rm
+rmdir share
+cd share
+ls
+rmdir subshare
+cd ITI2
+docker compose up -d
+code .
+cd ITI2
+docker compose up -d
+ls
+cd haproxy
+haproxy -c -f haproxy.cfg
+sudo apt install haproxy
+cd ..
+cd haproxy
+haproxy -c -f haproxy.cfg
+cd ..
+docker compose up -d

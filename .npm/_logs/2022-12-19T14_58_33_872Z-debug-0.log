@@ -1,0 +1,233 @@
+0 verbose cli /home/nunoamorim/.nvm/versions/node/v16.17.1/bin/node /home/nunoamorim/.nvm/versions/node/v16.17.1/bin/npm
+1 info using npm@8.15.0
+2 info using node@v16.17.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/nunoamorim/.nvm/versions/node/v16.17.1/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/nunoamorim/.cache/typescript/4.9/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 37ms
+11 timing config:load:file:/home/nunoamorim/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/home/nunoamorim/.nvm/versions/node/v16.17.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 13ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 68ms
+19 timing npm:load:configload Completed in 68ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/body-parser@ts4.9 @types/express@ts4.9 @types/formidable@ts4.9 @types/procfs-stats@ts4.9 @types/response-time@ts4.9 @types/bytes@ts4.9 @types/merge-descriptors@ts4.9 @types/on-headers@ts4.9 @types/once@ts4.9 @types/qs@ts4.9 @types/serve-static@ts4.9 @types/content-type@ts4.9 @types/type-is@ts4.9 @types/debug@ts4.9 @types/depd@ts4.9 @types/node@ts4.9 @types/http-errors@ts4.9
+23 verbose argv "install" "--ignore-scripts" "@types/body-parser@ts4.9" "@types/express@ts4.9" "@types/formidable@ts4.9" "@types/procfs-stats@ts4.9" "@types/response-time@ts4.9" "@types/bytes@ts4.9" "@types/merge-descriptors@ts4.9" "@types/on-headers@ts4.9" "@types/once@ts4.9" "@types/qs@ts4.9" "@types/serve-static@ts4.9" "@types/content-type@ts4.9" "@types/type-is@ts4.9" "@types/debug@ts4.9" "@types/depd@ts4.9" "@types/node@ts4.9" "@types/http-errors@ts4.9" "--save-dev" "--user-agent" "typesInstaller/4.9.4"
+24 timing npm:load:setTitle Completed in 15ms
+25 timing config:load:flatten Completed in 9ms
+26 timing npm:load:display Completed in 11ms
+27 verbose logfile logs-max:10 dir:/home/nunoamorim/.npm/_logs
+28 verbose logfile /home/nunoamorim/.npm/_logs/2022-12-19T14_58_33_872Z-debug-0.log
+29 timing npm:load:logFile Completed in 22ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 123ms
+33 timing arborist:ctor Completed in 2ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 52ms
+37 timing arborist:ctor Completed in 2ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fon-headers 571ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 701ms (cache revalidated)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2ftype-is 701ms (cache updated)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 720ms (cache updated)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fonce 728ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 727ms (cache updated)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 752ms (cache updated)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 740ms (cache updated)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1058ms (cache updated)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2fformidable 1354ms (cache updated)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fbytes 1420ms (cache updated)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fprocfs-stats 1524ms (cache updated)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2fresponse-time 1523ms (cache updated)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-errors 1538ms (cache updated)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fmerge-descriptors 2012ms (cache updated)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fcontent-type 2010ms (cache updated)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fdepd 2033ms (cache updated)
+55 timing idealTree:userRequests Completed in 2070ms
+56 silly idealTree buildDeps
+57 silly fetch manifest @types/body-parser@1.19.2
+58 silly fetch manifest @types/express@4.17.15
+59 silly fetch manifest @types/formidable@2.0.5
+60 silly fetch manifest @types/procfs-stats@1.0.2
+61 silly fetch manifest @types/response-time@2.3.5
+62 silly fetch manifest @types/bytes@3.1.1
+63 silly fetch manifest @types/merge-descriptors@1.0.1
+64 silly fetch manifest @types/on-headers@1.0.0
+65 silly fetch manifest @types/once@1.4.0
+66 silly fetch manifest @types/qs@6.9.7
+67 silly fetch manifest @types/serve-static@1.15.0
+68 silly fetch manifest @types/content-type@1.1.5
+69 silly fetch manifest @types/type-is@1.6.3
+70 silly fetch manifest @types/debug@4.1.7
+71 silly fetch manifest @types/depd@1.1.32
+72 silly fetch manifest @types/node@18.11.17
+73 silly fetch manifest @types/http-errors@2.0.1
+74 silly placeDep ROOT @types/body-parser@1.19.2 OK for:  want: 1.19.2
+75 silly placeDep ROOT @types/bytes@3.1.1 OK for:  want: 3.1.1
+76 silly placeDep ROOT @types/content-type@1.1.5 OK for:  want: 1.1.5
+77 silly placeDep ROOT @types/debug@4.1.7 OK for:  want: 4.1.7
+78 silly placeDep ROOT @types/depd@1.1.32 OK for:  want: 1.1.32
+79 silly placeDep ROOT @types/express@4.17.15 OK for:  want: 4.17.15
+80 silly placeDep ROOT @types/formidable@2.0.5 OK for:  want: 2.0.5
+81 silly placeDep ROOT @types/http-errors@2.0.1 OK for:  want: 2.0.1
+82 silly placeDep ROOT @types/merge-descriptors@1.0.1 OK for:  want: 1.0.1
+83 silly placeDep ROOT @types/node@18.11.17 OK for:  want: 18.11.17
+84 silly placeDep ROOT @types/on-headers@1.0.0 OK for:  want: 1.0.0
+85 silly placeDep ROOT @types/once@1.4.0 OK for:  want: 1.4.0
+86 silly placeDep ROOT @types/procfs-stats@1.0.2 OK for:  want: 1.0.2
+87 silly placeDep ROOT @types/qs@6.9.7 OK for:  want: 6.9.7
+88 silly placeDep ROOT @types/response-time@2.3.5 OK for:  want: 2.3.5
+89 silly placeDep ROOT @types/serve-static@1.15.0 OK for:  want: 1.15.0
+90 silly placeDep ROOT @types/type-is@1.6.3 OK for:  want: 1.6.3
+91 silly fetch manifest @types/connect@*
+92 silly fetch manifest @types/ms@*
+93 silly fetch manifest @types/express-serve-static-core@^4.17.31
+94 silly fetch manifest @types/mime@*
+95 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 129ms (cache updated)
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 138ms (cache updated)
+97 http fetch GET 200 https://registry.npmjs.org/@types%2fms 629ms (cache updated)
+98 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 622ms (cache updated)
+99 timing idealTree:#root Completed in 697ms
+100 silly placeDep ROOT @types/connect@3.4.35 OK for: @types/body-parser@1.19.2 want: *
+101 timing idealTree:node_modules/@types/body-parser Completed in 2ms
+102 timing idealTree:node_modules/@types/bytes Completed in 0ms
+103 timing idealTree:node_modules/@types/connect Completed in 0ms
+104 timing idealTree:node_modules/@types/content-type Completed in 0ms
+105 silly placeDep ROOT @types/ms@0.7.31 OK for: @types/debug@4.1.7 want: *
+106 timing idealTree:node_modules/@types/debug Completed in 2ms
+107 timing idealTree:node_modules/@types/depd Completed in 0ms
+108 silly placeDep ROOT @types/express-serve-static-core@4.17.31 OK for: @types/express@4.17.15 want: ^4.17.31
+109 silly fetch manifest @types/range-parser@*
+110 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 299ms (cache updated)
+111 timing idealTree:node_modules/@types/express Completed in 313ms
+112 silly placeDep ROOT @types/range-parser@1.2.4 OK for: @types/express-serve-static-core@4.17.31 want: *
+113 timing idealTree:node_modules/@types/express-serve-static-core Completed in 18ms
+114 timing idealTree:node_modules/@types/formidable Completed in 0ms
+115 timing idealTree:node_modules/@types/http-errors Completed in 0ms
+116 timing idealTree:node_modules/@types/merge-descriptors Completed in 0ms
+117 timing idealTree:node_modules/@types/ms Completed in 0ms
+118 timing idealTree:node_modules/@types/node Completed in 0ms
+119 timing idealTree:node_modules/@types/on-headers Completed in 0ms
+120 timing idealTree:node_modules/@types/once Completed in 1ms
+121 timing idealTree:node_modules/@types/procfs-stats Completed in 1ms
+122 timing idealTree:node_modules/@types/qs Completed in 0ms
+123 timing idealTree:node_modules/@types/range-parser Completed in 0ms
+124 timing idealTree:node_modules/@types/response-time Completed in 0ms
+125 silly placeDep ROOT @types/mime@3.0.1 OK for: @types/serve-static@1.15.0 want: *
+126 timing idealTree:node_modules/@types/serve-static Completed in 7ms
+127 timing idealTree:node_modules/@types/mime Completed in 0ms
+128 timing idealTree:node_modules/@types/type-is Completed in 0ms
+129 timing idealTree:buildDeps Completed in 1076ms
+130 timing idealTree:fixDepFlags Completed in 3ms
+131 timing idealTree Completed in 3204ms
+132 timing reify:loadTrees Completed in 3206ms
+133 timing reify:diffTrees Completed in 14ms
+134 silly reify moves {}
+135 timing reify:retireShallow Completed in 2ms
+136 timing reify:createSparse Completed in 39ms
+137 timing reify:loadBundles Completed in 0ms
+138 silly audit bulk request {
+138 silly audit   'types-registry': [ '0.1.623' ],
+138 silly audit   '@types/body-parser': [ '1.19.2' ],
+138 silly audit   '@types/bytes': [ '3.1.1' ],
+138 silly audit   '@types/content-type': [ '1.1.5' ],
+138 silly audit   '@types/debug': [ '4.1.7' ],
+138 silly audit   '@types/depd': [ '1.1.32' ],
+138 silly audit   '@types/express': [ '4.17.15' ],
+138 silly audit   '@types/formidable': [ '2.0.5' ],
+138 silly audit   '@types/http-errors': [ '2.0.1' ],
+138 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+138 silly audit   '@types/node': [ '18.11.17' ],
+138 silly audit   '@types/on-headers': [ '1.0.0' ],
+138 silly audit   '@types/once': [ '1.4.0' ],
+138 silly audit   '@types/procfs-stats': [ '1.0.2' ],
+138 silly audit   '@types/qs': [ '6.9.7' ],
+138 silly audit   '@types/response-time': [ '2.3.5' ],
+138 silly audit   '@types/serve-static': [ '1.15.0' ],
+138 silly audit   '@types/type-is': [ '1.6.3' ],
+138 silly audit   '@types/connect': [ '3.4.35' ],
+138 silly audit   '@types/ms': [ '0.7.31' ],
+138 silly audit   '@types/express-serve-static-core': [ '4.17.31' ],
+138 silly audit   '@types/range-parser': [ '1.2.4' ],
+138 silly audit   '@types/mime': [ '3.0.1' ]
+138 silly audit }
+139 silly tarball no local data for @types/once@https://registry.npmjs.org/@types/once/-/once-1.4.0.tgz. Extracting by manifest.
+140 silly tarball no local data for @types/on-headers@https://registry.npmjs.org/@types/on-headers/-/on-headers-1.0.0.tgz. Extracting by manifest.
+141 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.11.17.tgz. Extracting by manifest.
+142 silly tarball no local data for @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.1.tgz. Extracting by manifest.
+143 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 320ms
+144 timing auditReport:getReport Completed in 328ms
+145 silly audit report {}
+146 timing auditReport:init Completed in 1ms
+147 timing reify:audit Completed in 340ms
+148 timing reifyNode:node_modules/@types/ms Completed in 399ms
+149 timing reifyNode:node_modules/@types/range-parser Completed in 399ms
+150 timing reifyNode:node_modules/@types/connect Completed in 401ms
+151 timing reifyNode:node_modules/@types/serve-static Completed in 400ms
+152 timing reifyNode:node_modules/@types/type-is Completed in 401ms
+153 timing reifyNode:node_modules/@types/procfs-stats Completed in 401ms
+154 timing reifyNode:node_modules/@types/qs Completed in 403ms
+155 timing reifyNode:node_modules/@types/response-time Completed in 403ms
+156 timing reifyNode:node_modules/@types/merge-descriptors Completed in 403ms
+157 timing reifyNode:node_modules/@types/content-type Completed in 402ms
+158 timing reifyNode:node_modules/@types/depd Completed in 402ms
+159 timing reifyNode:node_modules/@types/debug Completed in 403ms
+160 timing reifyNode:node_modules/@types/body-parser Completed in 403ms
+161 timing reifyNode:node_modules/@types/bytes Completed in 403ms
+162 timing reifyNode:node_modules/@types/express Completed in 404ms
+163 timing reifyNode:node_modules/@types/express-serve-static-core Completed in 412ms
+164 timing reifyNode:node_modules/@types/mime Completed in 413ms
+165 timing reifyNode:node_modules/@types/formidable Completed in 427ms
+166 http fetch GET 200 https://registry.npmjs.org/@types/once/-/once-1.4.0.tgz 306ms (cache miss)
+167 timing reifyNode:node_modules/@types/once Completed in 443ms
+168 http fetch GET 200 https://registry.npmjs.org/@types/on-headers/-/on-headers-1.0.0.tgz 314ms (cache miss)
+169 timing reifyNode:node_modules/@types/on-headers Completed in 458ms
+170 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.11.17.tgz 796ms (cache miss)
+171 timing reifyNode:node_modules/@types/node Completed in 951ms
+172 http fetch GET 200 https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.1.tgz 804ms (cache miss)
+173 timing reifyNode:node_modules/@types/http-errors Completed in 961ms
+174 timing reify:unpack Completed in 966ms
+175 timing reify:unretire Completed in 1ms
+176 timing build:queue Completed in 4ms
+177 timing build:deps Completed in 6ms
+178 timing build Completed in 6ms
+179 timing reify:build Completed in 7ms
+180 timing reify:trash Completed in 1ms
+181 timing reify:save Completed in 136ms
+182 timing reify Completed in 4466ms
+183 silly ADD node_modules/@types/mime
+184 silly ADD node_modules/@types/range-parser
+185 silly ADD node_modules/@types/express-serve-static-core
+186 silly ADD node_modules/@types/ms
+187 silly ADD node_modules/@types/connect
+188 silly ADD node_modules/@types/type-is
+189 silly ADD node_modules/@types/serve-static
+190 silly ADD node_modules/@types/response-time
+191 silly ADD node_modules/@types/qs
+192 silly ADD node_modules/@types/procfs-stats
+193 silly ADD node_modules/@types/once
+194 silly ADD node_modules/@types/on-headers
+195 silly ADD node_modules/@types/node
+196 silly ADD node_modules/@types/merge-descriptors
+197 silly ADD node_modules/@types/http-errors
+198 silly ADD node_modules/@types/formidable
+199 silly ADD node_modules/@types/express
+200 silly ADD node_modules/@types/depd
+201 silly ADD node_modules/@types/debug
+202 silly ADD node_modules/@types/content-type
+203 silly ADD node_modules/@types/bytes
+204 silly ADD node_modules/@types/body-parser
+205 timing command:install Completed in 4497ms
+206 verbose exit 0
+207 timing npm Completed in 4828ms
+208 info ok

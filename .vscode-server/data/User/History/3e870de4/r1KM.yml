@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  haproxy:
+      image: haproxy
+      container_name: haproxy
+      ports:
+        - "8080:80"
+      volumes:
+        - "./haproxy:/usr/local/etc/haproxy"
+      networks:
+        - loadbalancer
+
+networks:
+  loadbalancer:
+    external: true
+    
+ 

@@ -1,0 +1,61 @@
+version: '3.8'
+services:
+  #frontend_backend:
+    #build: 
+     #context: ./frontend
+      #dockerfile: Dockerfile
+    #ports:
+      #- "3000:3000"
+    #labels:
+      #- "traefik.http.routers.frontend_backend.rule=Host(`frontend_backend.localhost`)"
+      #- "traefik.frontend_backend.rule=Host:frontend_backend.docker.localhost"
+    #depends_on:
+     # - traefik
+    
+  # NAS - we have to define the volume before we can use it  
+
+  traefik:
+    image: traefik
+    container_name: traefik
+    command:
+      - --api.insecure=true
+      - --providers.docker
+      - --providers.docker.exposedbydefault=false
+    #ports:
+    # - "8080:80"
+    # - "192.168.43.221:3000:80"
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+        mode: host
+      - target: 443
+        published: 443
+        protocol: tcp
+        mode: host
+      - target: 8080 # insecure api wont work
+        published: 8080
+        protocol: tcp
+        mode: host
+    networks:
+      - loadbalancer
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    labels:
+      - "traefik.docker.network=loadbalancer"
+
+#networks:
+#  loadbalancer:
+#    external: true
+
+networks:
+  default:
+    driver: bridge
+  t2_proxy:
+    name: t2_proxy
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.43.89/24
+    
+ 

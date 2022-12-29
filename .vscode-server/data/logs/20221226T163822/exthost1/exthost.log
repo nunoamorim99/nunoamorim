@@ -1,0 +1,35 @@
+2022-12-26 16:38:25.070 [info] Extension host with pid 9044 started
+2022-12-26 16:38:25.097 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Lock acquired.
+2022-12-26 16:38:25.276 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2022-12-26 16:38:25.279 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-26 16:38:25.282 [info] ExtensionService#_doActivateExtension Blackboxapp.blackbox, startup: true, activationEvent: '*'
+2022-12-26 16:38:26.111 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-26 16:38:26.112 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-26 16:38:26.508 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 16:38:26.509 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 16:38:26.509 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 16:38:26.510 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 16:38:26.510 [info] Eager extensions activated
+2022-12-26 16:38:26.895 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2022-12-26 16:38:38.263 [error] Error: Network error: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+	at new e (/home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:139)
+	at /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:20919
+	at /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:26874
+	at Set.forEach (<anonymous>)
+	at /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:26851
+	at Map.forEach (<anonymous>)
+	at i.broadcastQueries (/home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:26802)
+	at /home/nunoamorim/.vscode-server/extensions/github.vscode-pull-request-github-0.56.0/dist/extension.js:1422:19529
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-26 16:40:02.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 16:43:12.036 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 16:46:24.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 16:52:52.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 16:59:16.289 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 17:02:21.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-12-26 17:05:22.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2022-12-26 17:05:44.031 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2022-12-26 17:08:25.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10004
+2022-12-26 17:08:46.407 [info] Extension host terminating: received terminate message from renderer
+2022-12-26 17:08:46.409 [info] Lock '/home/nunoamorim/.vscode-server/data/User/workspaceStorage/a9f5109e99d391079f85d3e92812567a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-26 17:08:46.594 [info] Extension host with pid 9044 exiting with code 0
